@@ -12,4 +12,4 @@ if quantidade > 0:
     media = soma/quantidade
     print(f"Média dos números: {media:.2f}")
 else:
-    print ("Nenhum númeor foi digitadox")
+    print ("Nenhum número foi digitado")
