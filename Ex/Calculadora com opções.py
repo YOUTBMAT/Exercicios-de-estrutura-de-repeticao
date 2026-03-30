@@ -39,4 +39,7 @@ Número/Caractere inválido''')
         if n2 == 0:
             print("Resultado: indefinido")
             continue
+        if n1 == 0:
+            print("Resultado: indefinido")
+            continue
         print(f"Resultado: {n1 / n2}")
