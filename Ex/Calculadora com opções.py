@@ -1,12 +1,16 @@
 while True:
-    conta = int(input('''
+    try:
+        conta = int(input('''
 1: soma
 2: subtração
 3: multiplicação
 4: divisão
 0: sair
 Digite o número da opção escolhida: '''))
-
+    except Exception:
+        print('''
+Número/Caractere inválido''')
+        continue
     if conta == 0:
         break
 
