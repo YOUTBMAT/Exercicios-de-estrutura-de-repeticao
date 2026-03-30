@@ -1,6 +1,5 @@
 loop = 10
 
-
 par = []
 impar = []
 while True:
